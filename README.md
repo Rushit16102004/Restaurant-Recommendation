@@ -1,22 +1,29 @@
-🍽️ Restaurant Recommender App
-This repository contains a simple, yet effective, restaurant recommendation system built with Python, Pandas, and Streamlit. The application allows users to find similar restaurants based on a chosen restaurant, city, and/or cuisine.
+# 🍽️ Restaurant Recommender App
 
-🌟 Features
-Restaurant-Based Recommendations: Select a specific restaurant to find others with similar cuisines and in the same city.
+A simple and effective restaurant recommendation system built with **Python**, **Pandas**, and **Streamlit**. This app allows users to discover restaurants similar to a chosen restaurant, filtered by city and/or cuisine.  
 
-City & Cuisine Filtering: Refine your search by specifying a city and/or a cuisine.
+---
 
-Intuitive UI: A clean and user-friendly interface built with Streamlit makes the app easy to navigate.
+## 🌟 Features
 
-🚀 How to Run the App
-Prerequisites
-You'll need to have Python installed on your machine. You can then install the required libraries using pip:
+- **Restaurant-Based Recommendations**: Select a specific restaurant to find others with similar cuisines and in the same city.  
+- **City & Cuisine Filtering**: Refine your search by specifying a city and/or a cuisine.  
+- **Intuitive UI**: A clean, user-friendly interface built with Streamlit.  
 
-pip install pandas numpy streamlit scikit-learn
+---
 
-Setup
-Clone the repository:
+## 🚀 How to Run the App
 
+### Prerequisites
+Make sure you have **Python** installed. Then install the required libraries:
+
+bash
+        pip install pandas numpy streamlit scikit-learn
+
+## 🚀 Setup
+
+### Clone the Repository
+bash
 git clone <your-repository-url>
 cd <your-repository-name>
 
