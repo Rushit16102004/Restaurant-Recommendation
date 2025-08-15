@@ -17,60 +17,67 @@ A simple and effective restaurant recommendation system built with **Python**, *
 ### Prerequisites
 Make sure you have **Python** installed. Then install the required libraries:
 
-bash
-        pip install pandas numpy streamlit scikit-learn
+bash pip install pandas numpy streamlit scikit-learn
+
+--- 
 
 ## 🚀 Setup
 
 ### Clone the Repository
-bash
-git clone <your-repository-url>
-cd <your-repository-name>
+        bash
+        git clone <your-repository-url>
+        cd <your-repository-name>
 
-Ensure you have the data and pickle files:
+* Ensure you have the data and pickle files:
 
-Make sure your project structure looks like this:
+* Make sure your project structure looks like this:
 
-/your-project-name
-|-- app.py
-|-- Restaurant.ipynb
-|-- restaurants.pkl
-|-- similarity.pkl
-|-- data/
-    |-- Dataset.csv
+        /your-project-name
+        |-- app.py
+        |-- Restaurant.ipynb
+        |-- restaurants.pkl
+        |-- similarity.pkl        
+        |-- data/
+            |-- Dataset.csv
 
-The Restaurant.ipynb notebook is used to preprocess the data and create two pickle files: restaurants.pkl and similarity.pkl. You'll need to run this notebook first to generate these files, which will be saved in the root directory of your project.
+* The Restaurant.ipynb notebook is used to preprocess the data and create two pickle files: restaurants.pkl and similarity.pkl. You'll need to run this notebook first to generate these files, which will be saved in the root directory of your project.
 
-Open the notebook and run all the cells. This will save the necessary files to your project directory.
+* Open the notebook and run all the cells. This will save the necessary files to your project directory.
 
-Running the App
+ * Running the App
 Once you have the prerequisite libraries and the necessary pickle files, you can run the Streamlit app with this simple command:
 
-streamlit run app.py
+* streamlit run app.py
 
-Your app will automatically open in your web browser.
+* Your app will automatically open in your web browser.
 
-📂 Project Structure
-.
-├── app.py
-├── data/
-│   └── Dataset.csv
-├── Restaurant.ipynb
-├── restaurants.pkl
-└── similarity.pkl
+---
 
-app.py: The main Streamlit application file.
+## 📂 Project Structure
 
-Restaurant.ipynb: A Jupyter Notebook for data preprocessing.
+        ├── app.py
+        ├── data/
+        │   └── Dataset.csv
+        ├── Restaurant.ipynb
+        ├── restaurants.pkl
+        └── similarity.pkl
 
-data/Dataset.csv: The raw dataset used for the recommendations.
+* app.py: The main Streamlit application file.
 
-restaurants.pkl: A pickled file of the preprocessed restaurant data.
+* Restaurant.ipynb: A Jupyter Notebook for data preprocessing.
 
-similarity.pkl: A pickled file containing the cosine similarity matrix.
+* data/Dataset.csv: The raw dataset used for the recommendations.
 
-🙏 Acknowledgments
-This project was inspired by the need for a simple and effective way to discover new dining experiences.
+* restaurants.pkl: A pickled file of the preprocessed restaurant data.
 
-📝 License
-This project is open-source and available under the MIT License.
+* similarity.pkl: A pickled file containing the cosine similarity matrix.
+
+---
+
+## 🙏 Acknowledgments
+* This project was inspired by the need for a simple and effective way to discover new dining experiences.
+
+---
+
+## 📝 License
+* This project is open-source and available under the MIT License.
